@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <script src="src/index.js"></script>
+    </head>
+    <body>
+        <form>
+            <label for="input-username">Username:</label><br>
+            <input type="text" id="input-username" name="input-username"><br>
+            <label for="input-email">Email:</label><br>
+            <input type="text" id="input-email" name="input-email"><br>
+            <label for="input-admin">Admin status</label>
+            <input type="checkbox" id ="input-admin" value="input-admin"><br>
+            <label for="input-image">Select an image:</label>
+            <input type="file" width = "64" height="64" id="input-image" name="input-image"><br>
+            <input type="button" id="submit-data" value="Send data">
+        </form><br>
+        <h4 id ="error-msg"></h4>
+        <button id="empty-table">Empty the table</button>
+        <table id="tableId"><br>
+            <thead>
+                <tr><th>Username</th><th>Email</th><th>Admin</th></tr>
+            </thead>
+            <tbody id = tbodyId>
+                <tr><td>AdminAndy</td><td>andytheadmin@gmail.com</td><td>X</td></tr>
+                <tr><td>NormiNorman</td><td>normalemail@gmail.com</td><td>-</td></tr>
+            </tbody>
+        </table>
+    </body>
+</html>

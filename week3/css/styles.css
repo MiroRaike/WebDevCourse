@@ -1,0 +1,53 @@
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+}
+
+td {
+    padding: 6px;
+    border-bottom: solid 1px gray;
+}
+
+.center {
+    margin: auto;
+    padding: 60px;
+    width: 60%;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+}
+
+th {
+    background-color: #b7d0ff;
+    padding: 12px 0px 12px 6px;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+}
+
+/* For alt colouring https://stackoverflow.com/questions/3084261/alternate-table-row-color-using-css */
+
+h1 {
+    text-align: center;
+}
+
+tr {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.fortyFive{
+    background-color: #abffbd !important;
+}
+
+.twentyFive{
+    background-color: #ff9e9e !important;
+}

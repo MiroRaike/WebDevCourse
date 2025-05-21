@@ -1,0 +1,9 @@
+------------Zombie survival game------------
+
+WASD for movement
+Mouse to look around
+Mouse1 for shooting
+Q and E are used to switch between melee weapons
+
+Zombies keep randomly spawning on map in 2.5 second intervals try to hold out as long as you can.
+There is a short invincibility timer when you get hit incase you get cornered on the map
